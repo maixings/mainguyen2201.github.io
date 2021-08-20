@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-header{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url('banner.png');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.main-header .container{
+    padding-top:30px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.main-header .logo{
+    flex-grow: 1;
+}
+.main-header .logo img{
+    width: 180px;
+}
+.main-header .header-navbar{
+    flex-grow: -1;
+}
+.main-header ul li{
+    display: inline-block;
+    list-style: none;
+}
+.main-header .header-navbar a{
+    color:white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    padding-bottom: 5px;
+}
+.main-header a:hover{
+    border-bottom: 3px solid rgb(248, 153, 0);
+    transition: .3s;
+    background:rgba(255, 255, 255, 0.4);
+}
+.main-header .title-text{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 10%;
+    color:white;
+}
+.main-header .title-text h1{
+    font-size:50px;
+    padding-bottom: 20px;
+}
+.header-btn{
+    margin-top: 40px;
+    padding:15px 40px;
+    border:2px solid white;
+    background: transparent ;
+    color:white;
+    text-transform: capitalize;
+    font-size: 20px;
+    position: relative;
+}
+.header-btn:hover{
+    background: rgb(251, 134, 0);
+}
+
+.total{
+    padding:100px 0;
+}
+.title{
+    text-align:center;
+}
+.title h1{
+    font-size:35px;
+    text-transform: uppercase;
+    padding-bottom:10px;
+}
+
+
+
+.title p{
+    color:rgb(78, 78, 78);
+}
+.row{
+    padding-top: 80px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+
+.courses .col{
+    background:rgb(249, 221, 255);
+    padding:25px 18px;
+    margin:0 30px;
+    
+}
+.courses .col:hover{
+    box-shadow: 2px 2px 0px 3px rgba(0,0,0,.1);
+}
+.courses h3{
+    font-size:24px;
+    padding-bottom: 30px;
+}
+.courses .col p{
+    color:rgb(87, 87, 87);
+    font-size:14px;
+}
+
+.global .col{
+    position: relative;
+    margin: 0 20px;
+    width: 400px;
+}
+.global .col img{
+    width: 400px;
+    border-radius: 30px;
+}
+.global .detail{
+    opacity: 0;
+}
+.global .col:hover .detail{
+    opacity: 1;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 400px;
+    height: 96.3%;
+    border-radius: 30px;
+    color:white;
+    font-size:30px;
+    font-weight:bold;
+    text-transform: uppercase;
+    background: rgba(185, 63, 63, 0.4);
+}
+.global .col:hover .detail p{
+    position: absolute;
+    top:88%;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+.facilities .row .col{
+    width: 400px;
+    margin: 0 30px;
+}
+.facilities .row .col img{
+    width: 400px;
+    border-radius:20px;
+    padding-bottom:15px;
+}
+.facilities .detail{
+    margin-left: 8px;
+}
+.facilities .detail h3{
+    font-size:24px;
+    padding-bottom:10px;
+}
+.facilities .detail p{
+    font-size:16px;
+    color:rgb(92, 92, 92);
+}
+.student .row{
+    justify-content:space-around;
+}
+.student .col{
+    padding:30px 20px;
+    background:rgba(255, 220, 253,.7);
+    width: 500px;
+    align-items: flex-end;
+    display: flex;
+    text-align: left;
+}
+.student .col img{
+    width: 70px;
+    border-radius:50%;
+    margin-right: 16px;
+}
+.student .col p{
+    color:rgb(83, 83, 83);
+    font-size:15px;
+    padding-bottom:15px;
+}
+.student .col h3{
+    font-size:24px;
+    padding-bottom:7px;
+}
+.student .fa{
+    color:rgb(253, 141, 13);
+    font: size 17px;
+}
+
+.online{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)) , url('banner2.jpg');
+    border-radius:40px;
+    margin-bottom:100px;
+}
+.online h2{
+    margin: 0 auto;
+    width: 700px;
+    font-size: 35px;
+    color:#fff;
+}
+.about-us{
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)) , url('background.jpg');
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+.about{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.about h2{
+    font-size:30px;
+    margin-bottom:30px;
+}
+.about p{
+    color:rgb(92, 92, 92);
+    font-size:18px;
+}
+.about .fa{
+    color:rgb(253,141,13);
+    font-size:25px;
+    padding:10px 20px;
+}
+.about-main{
+    padding:160px 0;
+}
+.about-main .row .col{
+    flex-basis: 40%;
+}
+.about-main .text{
+    text-align: left;
+}
+.about-main .text h2{
+    font-size:35px;
+    width: 400px;
+    padding-bottom: 20px;
+}
+.about-main .text p{
+    color:rgb(95, 95, 95);
+    font-size:16px;
+}
+.about-main .btn{
+    border:4px solid rgb(255, 67, 92);
+    color:rgb(255, 67, 92);
+    transition: .4s;
+}
+.about-main .btn:hover{
+    color:#fff;
+    border: 2px solid white;
+}
+.about-main img{
+    width: 100%;
+}
+.blog {
+    padding:160px 0;
+}
+.blog .col-1{
+    flex-basis:60%;
+    margin-right: 30px;
+}
+.blog .col-1 img{
+    width: 100%;
+}
+.blog .col-2{
+    flex-basis: 35%;
+    text-align:left;
+}
+.blog .col-2 p{
+    width: 400px;
+    background:rgb(255, 108, 11);
+    padding:10px 0;
+    text-align: center;
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    border-radius:10px;
+    margin-bottom: 20px;
+}
+.blog .blog-col{
+    width: 400px;
+    display:flex;
+    justify-content: space-between;
+    padding:13px 8px;
+    color:rgb(84, 94, 104);
+    font-size: 18px;
+}
+.blog .blog-text{
+    text-align: left;
+}
+.blog .blog-text h2{
+    font-size:35px;
+    padding:20px 0;
+}
+.blog .blog-text p{
+    width: 70%;
+    font-size:17px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color:rgb(97, 97, 97);
+}
+.blog .blog-form{
+    width: 800px;
+    box-shadow: 2px 3px 4px 1px rgba(0,0,0,.5);
+    padding:20px;
+    text-align: left;
+}
+.blog .blog-form h2{
+    font-size:25px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom:30px;
+}
+.blog .blog-form .form-b{
+    display:grid;
+}
+.blog-form .form-b input{
+    margin:20px 0;
+    padding:15px 20px;
+    outline: none;
+    border:none;
+    background:rgb(236, 236, 236);
+}
+.blog-form .form-b textarea{
+    padding: 10px;
+    color:rgb(95, 95, 95);
+    font-size: 18px;
+    outline: none;
+    resize: none;
+    border:none;
+    background:rgb(236, 236, 236);
+}
+.blog-form .form-b button{
+    width: 30%;
+    padding:13px 25px;
+    margin: 30px 0;
+    color:rgb(255, 169, 169);
+    font-size: 22px;
+    background:transparent;
+    border:3px solid rgb(255, 169, 169);
+    transition:.4s;
+}
+.blog-form .form-b button:hover{
+    background:rgb(255, 148, 7);
+    color:#FFF;
+    border: 3px solid #fff;
+}
+
+.location{
+    width: 80%;
+    margin:auto;
+    padding:80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+
+.location-2 .row {
+    display: grid;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.location-2 .col{
+    display: flex;
+    align-items: center;
+    margin:30px 0;
+} 
+.location-2 .fa{
+    color:rgb(250, 71, 26);
+    font-size: 35px;
+    margin-right: 15px;
+}
+.contact-row{
+    text-align:left;
+}
+.contact-row h4{
+    font-size:22px;
+    font-weight: 200;
+    color:rgb(37, 37, 37);
+    margin-bottom: 13px;
+}
+.contact-row p{
+    color:rgb(117, 117, 117);
+    font-size: 16px;
+
+}
+.location-2 {
+    width: 80%;
+    margin: 100px auto ;
+    display: flex;
+
+}
+.location-2 .form{
+    width: 600px;
+    display: grid;
+}
+.location-2 .form input{
+    margin:20px 0;
+    padding:15px;
+    outline:none;
+    border:none;
+    background:transparent;
+    box-shadow: 1px 3px 4px 2px rgba(0,0,0,.4);
+}
+.location-2 textarea{
+    resize:none;
+    padding:15px;
+    outline:none;
+    border:none;
+    background:transparent;
+    box-shadow: 1px 3px 4px 2px rgba(0,0,0,.4);
+    font-size:20px;
+}
+.location-2 button{
+    width: 30%;
+    padding:13px 25px;
+    margin: 30px 0;
+    color:rgb(255, 169, 169);
+    font-size: 18px;
+    background:transparent;
+    border:3px solid rgb(255, 169, 169);
+    transition:.4s;
+}
+.location-2 button:hover{
+    background:rgb(255, 148, 7);
+    color:#FFF;
+    border: 3px solid #fff;
+}
